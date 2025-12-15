@@ -1,4 +1,4 @@
-import { StoryNode } from '../App';
+import { StoryNode } from '../types';
 import { MessageSquare } from 'lucide-react';
 
 interface StoryNodeCardProps {

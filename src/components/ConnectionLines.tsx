@@ -1,4 +1,4 @@
-import { StoryNode } from '../App';
+import { StoryNode } from '../types';
 
 interface ConnectionLinesProps {
   nodes: StoryNode[];

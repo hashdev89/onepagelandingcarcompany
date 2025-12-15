@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { StoryNode } from '../App';
+import { StoryNode } from '../types';
 import { RotateCcw, BookOpen } from 'lucide-react';
 
 interface StoryPlayerProps {

@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { StoryNode } from '../App';
+import { StoryNode } from '../types';
 import { StoryNodeCard } from './StoryNodeCard';
 import { ConnectionLines } from './ConnectionLines';
 import { NodeEditor } from './NodeEditor';

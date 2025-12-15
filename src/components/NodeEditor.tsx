@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StoryNode, Choice } from '../App';
+import { StoryNode, Choice } from '../types';
 import { X, Plus, Trash2, Link } from 'lucide-react';
 
 interface NodeEditorProps {
@@ -107,7 +107,7 @@ export function NodeEditor({ node, nodes, onUpdate, onClose }: NodeEditorProps) 
           </div>
 
           <div className="space-y-3">
-            {choices.map((choice, index) => (
+            {choices.map((choice) => (
               <div key={choice.id} className="bg-slate-900 rounded-lg p-3 space-y-2">
                 <div className="flex items-center gap-2">
                   <input
